@@ -1,0 +1,34 @@
+#---PATCH-FORMAT-------------------------------------------------------------------------------------------------------------------------------#
+#class|method|place: 'start','end'|code|paramTypes
+#class|method|place: 'line'|index|code|paramTypes
+#class|'constructor'|attributes: 'public','protected','private'
+#---INITIALIZATION-EVENTS----------------------------------------------------------------------------------------------------------------------#
+main/MainApp.class|main|start|new com.xaron.equilinoxmodded.ModLoader();
+basics/EngineMaster.class|init|start|com.xaron.equilinoxmodded.framework.events.EventBus.Events.INITIALIZATION.invoke(null);
+session/Session.class|loadSession|end|com.xaron.equilinoxmodded.framework.events.EventBus.Events.SESSION_LOADED.invoke($1);|session.Session
+session/Session.class|initializeSession|end|com.xaron.equilinoxmodded.framework.events.EventBus.Events.SESSION_INITIALIZED.invoke($1);
+instances/Entity.class|die|start|{if ($0.dead == false) com.xaron.equilinoxmodded.framework.events.EventBus.Events.ENTITY_DIED.invoke($0);}
+#---UPDATE-EVENTS------------------------------------------------------------------------------------------------------------------------------#
+gameManaging/GameManager.class|update|line|66|com.xaron.equilinoxmodded.framework.events.EventBus.Events.GAME_UPDATE.invoke(null);
+instances/Entity.class|update|start|com.xaron.equilinoxmodded.framework.events.EventBus.Events.ENTITY_UPDATE.invoke(null);
+#---REGISTRY-----------------------------------------------------------------------------------------------------------------------------------#
+tasks/TaskCreator.class|getTasks|line|77|tasks.addAll(com.xaron.equilinoxmodded.framework.GameRegistry#getTasks());
+resourceManagement/BlueprintRepository.class|loadAllBlueprints|end|blueprints.putAll(com.xaron.equilinoxmodded.framework.GameRegistry#getBlueprints());
+shopping/ShopManager.class|createPlantShop|line|104|items.addAll(com.xaron.equilinoxmodded.framework.GameRegistry#getPlantShopItems());
+shopping/ShopManager.class|createAnimalShop|line|118|items.addAll(com.xaron.equilinoxmodded.framework.GameRegistry#getAnimalShopItems());
+languages/GameText.class|init|end|gameTexts.putAll(com.xaron.equilinoxmodded.framework.GameRegistry#getGameTexts());
+#---TASKS--------------------------------------------------------------------------------------------------------------------------------------#
+#tasks/CountReq.class|constructor|public
+#tasks/BreedReq.class|constructor|public
+#tasks/BuildReq.class|constructor|public
+#tasks/CashReward.class|constructor|public
+#tasks/ColourEntityReq.class|constructor|public
+#tasks/EarningReq.class|constructor|public
+#tasks/EatReq.class|constructor|public
+#tasks/EntityCountReq.class|constructor|public
+#tasks/EvolutionReq.class|constructor|public
+#tasks/FullGrownCountReq.class|constructor|public
+#tasks/HappyEntitiesReq.class|constructor|public
+#tasks/HuntingReq.class|constructor|public
+#tasks/MoneyCountRequirement.class|constructor|public
+#tasks/TreeCutReq.class|constructor|public
