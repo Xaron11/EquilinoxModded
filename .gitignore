@@ -7,6 +7,3 @@ build
 # Ignore Gradle bin directory and EquilinoxWindows jar
 bin
 lib/EquilinoxWindows.jar
-
-# Ignore build.gradle file
-build.gradle
