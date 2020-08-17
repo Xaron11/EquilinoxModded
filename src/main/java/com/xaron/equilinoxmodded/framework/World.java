@@ -18,31 +18,31 @@ public class World {
 		this.world = world;
 	}
 	
-	public float getWorldAltitude(float height) {
+	public float getAltitude(float height) {
 		return world.getAltitude(height);
 	}
 	
-	public float getWorldAltitude(float x, float z) {
+	public float getAltitude(float x, float z) {
 		return world.getAltitude(x, z);
 	}
 	
-	public int getWorldSeed() {
+	public int getSeed() {
 		return world.getConfigs().getSeed();
 	}
 	
-	public float getWorldMaxHeight() {
+	public float getMaxHeight() {
 		return world.getConfigs().getMaxHeight();
 	}
 	
-	public float getWorldSmoothness() {
+	public float getSmoothness() {
 		return world.getConfigs().getSmoothness();
 	}
 	
-	public int getWorldEntityCount() {
+	public int getEntityCount() {
 		return world.getEntityGrid().getEntityCount();
 	}
 	
-	public Map<Integer, Entity> getWorldEntities() {
+	public Map<Integer, Entity> getEntities() {
 		Map<Integer, instances.Entity> entities = world.getEntityGrid().getWorldEntities();
 		Map<Integer, Entity> newEntities = new HashMap<Integer, Entity>();
 		for (int i : entities.keySet()) {
@@ -55,19 +55,19 @@ public class World {
 		return world.getHeightOfTerrain(x, z);
 	}
 	
-	public int getWorldPopulation(Classification classification, int range, float x, float z) {
+	public int getPopulation(Classification classification, int range, float x, float z) {
 		return world.getPopulation(GameRepository.getClassification(classification), range, x, z);
 	}
 	
-	public float getWorldSize() {
+	public float getSize() {
 		return world.getSize();
 	}
 	
-	public TerrainVertex getWorldTerrainVertex(float x, float z) {
+	public TerrainVertex getTerrainVertex(float x, float z) {
 		return world.getTerrainVertex(x, z);
 	}
 	
-	public float getWorldWaterHeight() {
+	public float getWaterHeight() {
 		return world.getWaterHeight();
 	}
 	
