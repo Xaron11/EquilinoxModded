@@ -2,8 +2,8 @@
 .gradle
 
 # Ignore Gradle build output directory
-bin
-
-# Ignore Gradle build directory and EquilinoxWindows jar
 build
+
+# Ignore Gradle bin directory and EquilinoxWindows jar
+bin
 lib/EquilinoxWindows.jar
