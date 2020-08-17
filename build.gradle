@@ -49,6 +49,7 @@ jar {
         )
     }
     
+    //destinationDirectory = file('path/to/Equilinox')
     destinationDirectory = file('D:/Programy/Steam/steamapps/common/Equilinox')
 	
 	into('') { from configurations.libs.collect { zipTree(it) } }
