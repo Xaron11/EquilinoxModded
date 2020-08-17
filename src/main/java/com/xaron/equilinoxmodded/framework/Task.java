@@ -9,10 +9,12 @@ public abstract class Task {
 
 	private String name;
 	private String desc;
+	private boolean repeatable;
 	
-	public Task(String name, String desc) {
+	public Task(String name, String desc, boolean repeatable) {
 		this.name = name;
 		this.desc = desc;
+		this.repeatable = repeatable;
 	}
 	
 	protected abstract List<TaskRequirement> getRequirements();
@@ -20,6 +22,6 @@ public abstract class Task {
 	protected abstract List<Reward> getRewards();
 	
 	protected tasks.Task getTask(int id) {
-		return new tasks.Task(id, name, desc, getRequirements(), getRewards());
+		return new tasks.Task(id, repeatable, name, desc, getRequirements(), getRewards());
 	}
 }

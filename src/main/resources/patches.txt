@@ -17,7 +17,7 @@ resourceManagement/BlueprintRepository.class|loadAllBlueprints|end|blueprints.pu
 shopping/ShopManager.class|createPlantShop|line|104|items.addAll(com.xaron.equilinoxmodded.framework.GameRegistry#getPlantShopItems());
 shopping/ShopManager.class|createAnimalShop|line|118|items.addAll(com.xaron.equilinoxmodded.framework.GameRegistry#getAnimalShopItems());
 languages/GameText.class|init|end|gameTexts.putAll(com.xaron.equilinoxmodded.framework.GameRegistry#getGameTexts());
-#---TASKS--------------------------------------------------------------------------------------------------------------------------------------#
+#---TASKS-WIP----------------------------------------------------------------------------------------------------------------------------------#
 #tasks/CountReq.class|constructor|public
 #tasks/BreedReq.class|constructor|public
 #tasks/BuildReq.class|constructor|public

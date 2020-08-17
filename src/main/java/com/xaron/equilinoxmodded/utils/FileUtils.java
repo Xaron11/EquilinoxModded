@@ -8,19 +8,15 @@ import com.xaron.equilinoxmodded.Main;
 
 public final class FileUtils {
 
-	public static final String BACKUPDIRNAME = "backup";
 	public static final String MODSDIRNAME = "mods";
 	public static final String GAMEFILENAME = "EquilinoxWindows.jar";
 	public static final String TMPFILENAME = "EquilinoxWindows.jar.tmp";
-	public static final String BACKUPFILENAME = "EquilinoxWindows.jar.backup";
 	public static final String PATCHESFILENAME = "patches.txt";
 	
 	public static final File SOURCEFILE = getSourceDirectory();
 	public static final File MAINDIR = SOURCEFILE.getParentFile();
-	public static final File GAMEFILE = new File(MAINDIR, GAMEFILENAME);
-	public static final File BACKUPDIR = new File(MAINDIR, BACKUPDIRNAME);
-	public static final File BACKUPFILE = new File(BACKUPDIR, BACKUPFILENAME);
 	public static final File MODSDIR = new File(MAINDIR, MODSDIRNAME);
+	public static final File GAMEFILE = new File(MAINDIR, GAMEFILENAME);
 	public static final File TMPFILE = new File(MAINDIR, TMPFILENAME);
 	
 	private FileUtils() {}

@@ -19,7 +19,6 @@ public class EventListenerList {
 			try {
 				listener.invoke(listeners.get(listener), event);
 			} catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException e) {
-				System.out.println("exception");
 				e.printStackTrace();
 			}
 		}

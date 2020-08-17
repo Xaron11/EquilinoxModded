@@ -29,8 +29,10 @@ configurations {
 dependencies {
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:29.0-jre'
+    
 	implementation files("/lib/EquilinoxWindows.jar")
 	libs files("/lib/javassist.jar")
+	
     // Use JUnit test framework
     testImplementation 'junit:junit:4.13'
 }
@@ -47,7 +49,7 @@ jar {
         )
     }
     
-	destinationDirectory = file('D:/Programy/Steam/steamapps/common/Equilinox')
+    destinationDirectory = file('path/to/Equilinox')
 	
 	into('') { from configurations.libs.collect { zipTree(it) } }
 }
