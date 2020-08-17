@@ -1,7 +1,7 @@
 # EquilinoxModded
 EquilinoxModded is a modding framework for Equilinox game created by ThinMatrix and written in Java.
 
-EquilinoxModded is being actively updated and you can check out what I am working on [EquilinoxModded Project](https://github.com/users/Xaron11/projects/1) page.
+EquilinoxModded is being actively updated and you can check out what I am working on [EquilinoxModded Project](https://github.com/Xaron11/EquilinoxModded/projects/1) page.
 
 **Note: Currently only Windows version of the game is supported.**
 
