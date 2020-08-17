@@ -23,7 +23,7 @@ public class EventBus {
 			private EventListenerList event = new EventListenerList();
 			@Override
 			public void invoke(Object object) {
-				event.invoke(new SessionLoadedEvent((Session)object));
+				event.invoke(new SessionLoadedEvent(new Session((session.Session)object)));
 			}
 			@Override
 			public void addListener(Object instance, Method method) {
@@ -34,7 +34,7 @@ public class EventBus {
 			private EventListenerList event = new EventListenerList();
 			@Override
 			public void invoke(Object object) {
-				event.invoke(new SessionInitializedEvent((Session)object));
+				event.invoke(new SessionInitializedEvent(new Session((session.Session)object)));
 			}
 			@Override
 			public void addListener(Object instance, Method method) {
@@ -56,7 +56,7 @@ public class EventBus {
 			private EventListenerList event = new EventListenerList();
 			@Override
 			public void invoke(Object object) {
-				event.invoke(new EntityUpdateEvent((Entity)object));
+				event.invoke(new EntityUpdateEvent(new Entity((instances.Entity)object)));
 			}
 			@Override
 			public void addListener(Object instance, Method method) {
@@ -67,7 +67,7 @@ public class EventBus {
 			private EventListenerList event = new EventListenerList();
 			@Override
 			public void invoke(Object object) {
-				event.invoke(new EntityDiedEvent((Entity)object));
+				event.invoke(new EntityDiedEvent(new Entity((instances.Entity)object)));
 			}
 			@Override
 			public void addListener(Object instance, Method method) {

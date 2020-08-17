@@ -9,7 +9,7 @@ import time.Calendar;
 public class Session {
 	private session.Session session;
 	
-	protected Session(session.Session session) {
+	public Session(session.Session session) {
 		this.session = session;
 	}
 	
