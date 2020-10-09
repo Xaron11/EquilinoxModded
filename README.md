@@ -1,7 +1,7 @@
 # EquilinoxModded
-EquilinoxModded is a modding framework for Equilinox game created by ThinMatrix and written in Java.
+EquilinoxModded is a modding framework for [Equilinox](https://www.equilinox.com) game created by ThinMatrix and written in Java.
 
-EquilinoxModded is being actively updated and you can check out what I am working on [EquilinoxModded Project](https://github.com/Xaron11/EquilinoxModded/projects/1) page.
+EquilinoxModded is being actively updated and you can check out what I am working on my [EquilinoxModded Project](https://github.com/Xaron11/EquilinoxModded/projects/1) page.
 
 **Note: Currently only Windows version of the game is supported.**
 
@@ -9,11 +9,11 @@ EquilinoxModded is being actively updated and you can check out what I am workin
 To start using EquilinoxModded framework follow these few simple steps:
 
 1. Download current release from [Releases](https://github.com/Xaron11/EquilinoxModded/releases) section.
-2. Move downloaded JAR file to your Equilinox game's directory, next to EquilinoxWindows.jar.
-3. * Simply run `EquilinoxModded.jar` and wait. This shouldn't take more than a minute.
-   * or run `java -jar EquilinoxModded.jar` command in Command Prompt (CMD) to see detailed info about the process.
-4. When it's done you should see `EquilinoxWindows - Modded.jar` file and `mods` folder created in your directory.
-5. To play Equilinox game with mods run `EquilinoxWindows - Modded.jar` (Of course, put your favorite mods in the `mods` folder before or make you own mod with the help from [ExampleMod Repository](https://github.com/Xaron11/EquilinoxModded-ExampleMod)).
+2. Move downloaded JAR file to your Equilinox game's directory, next to _EquilinoxWindows.jar_.
+3. * Simply run ``EquilinoxModded.jar`` and wait. This shouldn't take more than a minute.
+   * or run ``java -jar EquilinoxModded.jar`` command in Command Prompt (CMD) to see detailed info about the process.
+4. When it's done you should see ``EquilinoxWindows - Modded.jar`` file and ``mods`` folder created in your directory.
+5. To play Equilinox game with mods run ``EquilinoxWindows - Modded.jar`` (Of course, put your favorite mods in the `mods` folder before or make your own mod with the help from [EqulinoxModded Wiki](https://github.com/Xaron11/EquilinoxModded/wiki) and [ExampleMod Repository](https://github.com/Xaron11/EquilinoxModded-ExampleMod)).
 6. **Enjoy your modded Equilinox experience!**
 
 ## How To Contribute?
