@@ -16,6 +16,9 @@ To start using EquilinoxModded framework follow these few simple steps:
 5. To play Equilinox game with mods run ``EquilinoxWindows - Modded.jar`` (Of course, put your favorite mods in the `mods` folder before or make your own mod with the help from [EqulinoxModded Wiki](https://github.com/Xaron11/EquilinoxModded/wiki) and [ExampleMod Repository](https://github.com/Xaron11/EquilinoxModded-ExampleMod)).
 6. **Enjoy your modded Equilinox experience!**
 
+## How to make your own mod?
+If you have an amazing idea on what to add to Equilinox game feel free to make your own mod with my framework. Start by going to the [Wiki](https://github.com/Xaron11/EquilinoxModded/wiki) page and reading _Getting Started_ section. You can then play it by yourself, send it to your friends or post online (If so I only want you to credit this modding framework, so more people could use it).
+
 ## How To Contribute?
 I really appreciate it if you want to help me with this project. Here's what you can do:
 * [Create an issue](https://github.com/Xaron11/EquilinoxModded/issues) if you found something that need to be fixed or you have an idea for something I can add.
