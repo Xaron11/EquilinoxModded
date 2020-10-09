@@ -27,4 +27,4 @@ To work with this repository you need to:
 2. Open the project with you IDE.
 3. In `build.gradle` file, edit line with: `destinationDirectory` to specify EquilinoxModded build export directory (I recommend to use Equilinox game's directory).
 4. Copy `EquilinoxWindows.jar` from your Equilinox game's directory to the `lib` folder.
-5. Build source code and export by running `gradle jar`.
+5. Build source code and export by running `gradlew jar`.
