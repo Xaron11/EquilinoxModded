@@ -25,6 +25,6 @@ I really appreciate it if you want to help me with this project. Here's what you
 To work with this repository you need to:
 1. Clone this repository by executing: `git clone https://github.com/Xaron11/EquilinoxModded.git` or download a [ZIP file](https://github.com/Xaron11/EquilinoxModded/archive/master.zip) and unpack it.
 2. Open the project with you IDE.
-3. In `build.gradle` file, edit line with: `destinationDirectory` to specify EquilinoxModded build export directory (I recommend to use Equilinox game's directory).
+3. In `build.gradle` file, edit line with: `destinationDirectory` to specify EquilinoxModded build export directory.
 4. Copy `EquilinoxWindows.jar` from your Equilinox game's directory to the `lib` folder.
-5. Build source code and export by running `gradle jar`.
+5. Build source code and export by running `gradlew jar`.
